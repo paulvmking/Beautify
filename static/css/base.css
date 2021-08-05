@@ -15,6 +15,11 @@ body {
     font-family: 'Lato', 'sans-serif';
 }
 
+#products-dropdown {
+    background-color: #844a5d;
+    font-family: 'Lato', 'sans-serif';
+}
+
 .icon {
     align-items: center;
     display: inline-flex;
@@ -60,6 +65,10 @@ body {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.bg-gold {
+    background: #daa520 !important;
 }
 
 /* -------------------------------- Media Queries */
