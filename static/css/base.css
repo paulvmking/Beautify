@@ -71,6 +71,23 @@ body {
     background: #daa520 !important;
 }
 
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: #e0e9f1;
+	z-index: -1;
+}
+
+.card-img-top {
+    min-height: 40vh;
+    max-height: 40vh;
+    border: 1px solid black;
+    object-fit: fill;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
