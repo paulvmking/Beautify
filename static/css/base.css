@@ -81,11 +81,28 @@ body {
 	z-index: -1;
 }
 
+.card {
+    height: 424px;
+    width: 300px;
+    box-shadow: 10px 10px 5px #a7c3d7;
+    -moz-box-shadow: 10px 10px 5px #a7c3d7;
+    -webkit-box-shadow: 10px 10px 5px #a7c3d7;
+    -khtml-box-shadow: 10px 10px 5px #a7c3d7;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
 .card-img-top {
-    min-height: 40vh;
-    max-height: 40vh;
+    height: 300px;
+    width: 300px;
     border: 1px solid black;
     object-fit: fill;
+}
+
+.black-line {
+    background-color: black;
 }
 
 /* -------------------------------- Media Queries */
