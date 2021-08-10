@@ -109,6 +109,20 @@ body {
     text-transform: capitalize;
 }
 
+.btt-button {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #844a5d;
+    color: #e0e9f1;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
