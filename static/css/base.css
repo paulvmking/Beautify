@@ -105,6 +105,10 @@ body {
     background-color: black;
 }
 
+.category-display {
+    text-transform: capitalize;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
