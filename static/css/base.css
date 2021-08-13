@@ -152,6 +152,11 @@ body {
     height: 2px;
 }
 
+.image-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

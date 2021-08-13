@@ -10,4 +10,13 @@
     <div class="toast-body bg-white">
         {{ message }}        
     </div>
+        <div class="bag-notification-wrapper">
+            {% for item in bag_items %}
+                <div class="row">
+                    <div class="col-3 my-1 image-content">
+                        <img class="w-100" src="{{ item.product.image_link }}">
+                    </div>
+                </div>
+            {% endfor %}    
+        </div>
 </div>
