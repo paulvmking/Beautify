@@ -187,6 +187,10 @@ body {
         padding-top: 116px;
     }
 
+    .header-margin {
+        margin-top: 200px;
+    }
+
     body {
         height: calc(100vh - 116px);
     }
