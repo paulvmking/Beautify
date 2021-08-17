@@ -1,0 +1,1 @@
+web: gunicorn beautify.wsgi:application
