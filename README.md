@@ -76,3 +76,74 @@
 #### **Database Design**
 
 <img src="">
+
+### Common features on all pages 
+
+#### All site visitors
+
+#### Logged in Users
+
+#### Site Admin
+
+### Other Existing Features 
+
+#### All users 
+
+#### Admin
+
+### Features Left to Implement
+
+# Technologies Used
+
+- **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - To write core content contained on site.
+- **[CSS3](https://en.wikipedia.org/wiki/CSS)** - To style core content displayed on site.
+- **[Python3](https://www.python.org/)** - To write core backend logic for the site.
+- **[FontAwesome](https://fontawesome.com/)** - Used as a link and source for icons displayed on site.
+- **[Gitpod](https://www.gitpod.io/)** - Used as the interactive development environment (IDE) for the project.
+- **[GitHub](https://github.com/)** - Used to display and share all files related to the project.
+- **[Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA8Jf-BRB-EiwAWDtEGkJ6iKra1Rpbr_P_NWTlH_xSyg5fnl9cG87m1uVtg1HJKb3bCsG0BhoC3yMQAvD_BwE)** - Used to create wireframes for the site.
+- **[Placeholder](https://placeholder.com/)** - Used to add colors to Readme.
+- **[Favicon.io](https://favicon.io/)** - Used to add Favicon to site.
+
+# [Testing]()
+
+# Deployment 
+
+- In order to deploy this project as I have the following is required [Python3](https://www.python.org/),  [Github account](https://github.com/),  [MongoDB account](https://www.mongodb.com/),  [Heroku account](https://www.heroku.com/).
+
+After you have succesfully signed up for these and installed the requirements proceed as below.
+
+#### Step 1 Clone the project 
+
+To make a local clone, follow these steps. 
+1. Log in to GitHub and go to the repository to wish to clone. 
+2. Click on the green button that reads **Code**.
+3. Click on **“Open with GitHub Desktop”** and follow the prompts.
+
+#### Step 2 Use the local copy
+1. Install all the requirements: Go to the workspace of your local copy. 
+2. In the terminal type: **pip3 install -r requirements.txt** and hit enter, this will create
+a file which python will need to run correctly as it contains a list of required dependancies.
+
+#### Step 3 Deploying to Heroku  
+
+To View the live app you can click on **Open app** in the right corner of your Heroku account. The app will open and deployment is successful.
+
+# Credits 
+
+ ## Code
+
+ - My mentor **Marantha Ilesanmi** for his help with the restructuring of my pagination code and search function to make the functionality better.
+
+ - All other code was written by the creator of the site - **Paul King**.
+
+ ## Content 
+
+ ## Text
+
+ ## Media 
+
+ ## Acknowledgements 
+
+ - My mentor **Marantha Ilesanmi** for his help, advice and patience.
+ - Code Institute and their tutors.
