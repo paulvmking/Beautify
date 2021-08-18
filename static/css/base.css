@@ -116,6 +116,11 @@ body {
     object-fit: fill;
 }
 
+.product-single-image {
+    width: 600px;
+    height: 600px;
+}
+
 .black-line {
     background-color: black;
 }
@@ -249,10 +254,19 @@ body {
     }
 
     .header-margin-product {
-        margin-top: 200px;
+        margin-top: 300px;
+    }
+
+    .header-margin-product-single {
+        margin-top: 240px;
     }
 
     body {
         height: calc(100vh - 116px);
+    }
+
+    .product-single-image {
+        width: 200px;
+        height: 200px;
     }
 }

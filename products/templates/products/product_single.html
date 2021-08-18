@@ -3,13 +3,13 @@
 
 {% block content %}
     <div class="overlay"></div>
-    <div class="container-fluid header-margin">
+    <div class="container-fluid header-margin header-margin-product-single">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
                 <div class="image-container my-5">
                     {% if product.image_link %}
                         <a href="{{ product.image_link }}" target="_blank">
-                            <img class="card-img-top img-fluid" src="{{ product.image_link }}" alt="{{ product.name }}">
+                            <img class="card-img-top img-fluid product-single-image" src="{{ product.image_link }}" alt="{{ product.name }}">
                         </a>
                         {% else %}
                         <a href="">
