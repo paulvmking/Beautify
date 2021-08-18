@@ -1,6 +1,6 @@
 # Beautify
 
-<img src="">
+<img src="media/responsive.png">
 
 ### Live Site = [Beautify](https://beautify-store.herokuapp.com/)
 
@@ -63,15 +63,15 @@
 
 #### **Desktop** 
 
-<img src="">
+<img src="media/Desktop.png">
 
 #### **Tablet** 
 
-<img src="">
+<img src="media/Tablet.png">
 
 #### **Mobile** 
 
-<img src="">
+<img src="media/Mobile.png">
 
 #### **Database Design**
 
