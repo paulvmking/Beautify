@@ -5,7 +5,8 @@
 ### Live Site = [Beautify](https://beautify-store.herokuapp.com/)
 
 ### Makeup Store 
-
+A website designed to provide user's with a the ability to view and purchase make up products whther registered or not but for registered users provides an account that saves their information to make previous orders easy to view also.
+It also feature **search** functionality and plenty of **filters** to allow the user to narrow down the type of products they wish to find. The site is laid out in a very simplistic way to allow maximum ease of use to users of all ages and abilities and on any platform. The site was deployed on Heroku and used AWS(Amazon web services) to host the static and site related media files. Django was used as the full stack framework to allow quick and eay construction of the site.
 
 #### Business Goals
   - To increase traffic to the site and in turn increase registration.
@@ -52,6 +53,17 @@
 # Design
 
 ## Colour Scheme
+- ![#000000](https://via.placeholder.com/15/000000/000000?text=+) **Black** (#000000),
+- ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) **White** (#ffffff),
+- ![#555555](https://via.placeholder.com/15/555555/000000?text=+) **Dark Grey** (#555555),
+- ![#844a5d](https://via.placeholder.com/15/844a5d/000000?text=+) **Dark Red** (#844a5d),
+- ![#daa520](https://via.placeholder.com/15/daa520/000000?text=+) **Strong Orange** (#daa520),
+- ![#fffdd0](https://via.placeholder.com/15/fffdd0/000000?text=+) **Pale Yellow** (#fffdd0),
+- ![#e0e9f1](https://via.placeholder.com/15/e0e9f1/000000?text=+) **Pale Blue** (#e0e9f1),
+- ![#a7c3d7](https://via.placeholder.com/15/a7c3d7/000000?text=+) **Light Blue** similar to **Pale Blue** (#a7c3d7),
+- ![#6c757d](https://via.placeholder.com/15/6c757d/000000?text=+) **Light Grayish Blue** (#6c757d),
+- ![#aab7c4](https://via.placeholder.com/15/aab7c4/000000?text=+) **Pale Grayish Blue** similar to **Light Grayish Blue** (#aab7c4),
+- ![#17a2b8](https://via.placeholder.com/15/17a2b8/000000?text=+) **Bright Cyan** (#17a2b8),
 
 
 ## Fonts
