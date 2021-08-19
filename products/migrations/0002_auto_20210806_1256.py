@@ -6,33 +6,33 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('products', '0001_initial'),
+        ("products", "0001_initial"),
     ]
 
     operations = [
         migrations.RenameField(
-            model_name='product',
-            old_name='image_url',
-            new_name='image_link',
+            model_name="product",
+            old_name="image_url",
+            new_name="image_link",
         ),
         migrations.AddField(
-            model_name='product',
-            name='brand',
+            model_name="product",
+            name="brand",
             field=models.CharField(blank=True, max_length=254, null=True),
         ),
         migrations.AddField(
-            model_name='product',
-            name='currency',
+            model_name="product",
+            name="currency",
             field=models.CharField(blank=True, max_length=254, null=True),
         ),
         migrations.AddField(
-            model_name='product',
-            name='price_sign',
+            model_name="product",
+            name="price_sign",
             field=models.CharField(blank=True, max_length=254, null=True),
         ),
         migrations.AddField(
-            model_name='product',
-            name='product_type',
+            model_name="product",
+            name="product_type",
             field=models.CharField(blank=True, max_length=254, null=True),
         ),
     ]
