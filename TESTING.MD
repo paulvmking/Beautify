@@ -97,3 +97,35 @@ The other errors in this app were due to files that were created by django when 
 
 - **[jigsawW3C](https://jigsaw.w3.org/css-validator/#validate_by_input)** - To Validate CSS.
 
+## HTML5 Validator
+
+- **[validatorW3C](https://validator.w3.org/#validate_by_input)** - To Validate HTML5.
+
+
+## Compatibility
+
+| Screen              | Google Chrome    | Safari           | Microsoft Edge   | Opera            | Mozilla Firefox  | Internet Explorer |
+| --------------------|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:-----------------:|
+| Mobile              |     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:| N/A               |
+| Tablet              |     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:| N/A               |
+| Desktop             |     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:|     Passed:heavy_check_mark:| N/A               |
+
+- The devices used for iOS testing were Macbook Pro, iPad mini, iPhone 10 and iPhone 8.
+- The devices used for android testing were Huawei P30, Samsung A40, Samsung S20 aswell as Samsung Galaxy tab A7.
+- For Windows 10 testing a HP pavillion was used as well as a HP Chromebook.
+- Chrome Dev Tools was used for the other testing and every phone/tablet type and screen size was checked form the smallest available (320px),
+to the largest (1200px +)
+
+## User Stories Testing
+
+
+## Usability  
+
+- I shared the website with friends and family and received feedback from them stating the site was easy to use,
+all features implemented fuctioned as expected.
+They also mentioned that its simplicity lead to easy usage and navigation and the text and color choices made everything very user friendly.
+
+## Issues and Fixes during Development
+
+
+## Known Bugs
