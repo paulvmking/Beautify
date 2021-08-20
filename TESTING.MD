@@ -121,6 +121,11 @@ The other errors in this app were due to files that were created by django when 
 - **base.html** **Allauth** File = **Passed**- No errors found except for loops syntax.
 - **base.html** File = **Passed**- No errors found except for loops syntax.
 
+ ### Includes
+
+- **main-nav.html** File = **Passed**- No errors found except for loops syntax and the fact it is an includes file.
+- **mobile-top-header.html** File = **Passed**- No errors found except for loops syntax and the fact it is an includes file.
+
 ## Compatibility
 
 | Screen              | Google Chrome    | Safari           | Microsoft Edge   | Opera            | Mozilla Firefox  | Internet Explorer |
@@ -146,5 +151,15 @@ They also mentioned that its simplicity lead to easy usage and navigation and th
 
 ## Issues and Fixes during Development
 
+1. Changed json data models and changed data was not reflected in the live site.
+- Fix = Had to use the "loaddata" command to ensure the live site was using the most recent data.
+2. Issues with styling caused by default bootstrap classes for cards.
+- Fix = Created my own classes to style each elemnt myself so if changes occur on bootstraps default classes mine will remain unaffected.
+3. Using VH in css caused my cards to overlap and be strangely positioned.
+- Fix = Used pixels for height and width to give a solid size.
+4. Issues using API from makeup site.
+- Fix = Solution was to use the data in json format in a fixture setup and edit the files to only contain information that was needed.
 
 ## Known Bugs
+
+There are no known bugs to the best of my knowledge.
