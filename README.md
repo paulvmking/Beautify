@@ -219,7 +219,7 @@ To View the live app you can click on **Open app** in the right corner of your H
 
   - The base of this project was styled off of Code Institutes "Boutique Ado" project and this was used both to aid in the correct styling of features like cards, and to help in implementing some of the python logic on the website. I added my own data and manipulated the logic to fit my requirements when needed.
 
- - My mentor **Marantha Ilesanmi** for his help with the restructuring of my pagination code and search function to make the functionality better.
+ - My mentor **Marantha Ilesanmi** for his help with implementation of my project and for solid advice concerning issues faced in development.
 
  - All other code was written by the creator of the site - **Paul King**.
 
