@@ -25,7 +25,9 @@ It also feature **search** functionality and plenty of **filters** to allow the 
 
 # UX
 
- #### Potential Customers
+#### Potential Customers
+
+- This sites potential customers will be anyone in the make-up/beauty industry who wishes to purchase products. It is laid out to make it as simple as possible to purchase these products and should be easy to navigate for all assorments of users.
 
 #### This website will provide value with
   - An easy and secure sign up process.
@@ -46,9 +48,8 @@ It also feature **search** functionality and plenty of **filters** to allow the 
  7. As a potential customer I want to have a good choice of filters for searching.
  8. As a returning user I want information and other useful content to entice me to return.
  9. As a returning user I want to be able to view my order history.
- 10. As a returning user I want to be able to have access to follow the company on social media.
- 11. As a user I expect to be able to login and out of my own profile.
- 12. As a site admin I expect to be able to maintain the site.
+ 10. As a user I expect to be able to login and out of my own profile.
+ 11. As a site admin I expect to be able to maintain the site.
 
 # Design
 
@@ -68,8 +69,9 @@ It also feature **search** functionality and plenty of **filters** to allow the 
 
 ## Fonts
 
-
 ## Imagery
+
+The images used for each product were taken for the API described and came with the other JSON data. I just called this API and used the image_link properly to display the relevent image whenever required. They are all make up related to keep with the theme of the site and I think overall even though they are not all consistent in size and content they executed their intended purpose and impact. The main hero image on the home page was taken from pixabay.com. I kept the images simple and to the point and did not want too many colliding feature related to them so as to allow for maximum impact between the products and the background and encourage the user to click them.
 
 ### Wireframes
 
@@ -89,28 +91,41 @@ It also feature **search** functionality and plenty of **filters** to allow the 
 
 <img src="">
 
-### Common features on all pages 
+### Features 
 
-#### All site visitors
+## All Users
+- Responsive on all devices.
+- Register functionality, with email confirmation in place.
+- Search functionality on products and filtering either by category, text input.
+- Full integration with Stripe payments.
+- Notification system using toasts.
 
-#### Logged in Users
+### Registered Users
+- User accounts with passwords properly hashed and cookies for logged in users.
+- Users can view past orders on their account, along with storing their details for faster checking out.
+- Log in, log out funstionality.
 
-#### Site Admin
-
-### Other Existing Features 
-
-#### All users 
-
-#### Admin
+### Admin 
+- Site admin has ability to search and change products from admin dashboard.
 
 ### Features Left to Implement
+- **Terms and conditions** page to allow users to read through the legal documentation associated with the site.Too much time involved reviewing legal documentation to implement straight away.
+- Option to change **languages** to some other than English.Too expensive to hire someone to check translations on current budget.
+- Review section to allow users to leave reviews on products and rate them also, as the ratings are currently only accessible to the Admin.
 
 # Technologies Used
 
 - **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - To write core content contained on site.
 - **[CSS3](https://en.wikipedia.org/wiki/CSS)** - To style core content displayed on site.
 - **[Python3](https://www.python.org/)** - To write core backend logic for the site.
+- **[Django:](https://www.djangoproject.com/)** - Used as the main fullstack framework for the site.
+- **[Amazon Web Services:](https://aws.amazon.com/)** - Used to host static and media files for the site.
+- **[SQLite3](https://www.sqlite.org/releaselog/3_32_3.html)** - Used as the main database during development.
+- **[PostgreSQL](https://www.postgresql.org/)** - Used as the main database for deployment of live site.
+- **[Stripe](https://stripe.com/)** - Used as the payment processor for the site.
+- **[Black](https://github.com/psf/black)** - Used to keep consistent file format throughout the python files.
 - **[FontAwesome](https://fontawesome.com/)** - Used as a link and source for icons displayed on site.
+- **[Git](https://git-scm.com/)** - Used as version control for the site.
 - **[Gitpod](https://www.gitpod.io/)** - Used as the interactive development environment (IDE) for the project.
 - **[GitHub](https://github.com/)** - Used to display and share all files related to the project.
 - **[Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA8Jf-BRB-EiwAWDtEGkJ6iKra1Rpbr_P_NWTlH_xSyg5fnl9cG87m1uVtg1HJKb3bCsG0BhoC3yMQAvD_BwE)** - Used to create wireframes for the site.
@@ -202,17 +217,27 @@ To View the live app you can click on **Open app** in the right corner of your H
 
  ## Code
 
+  - The base of this project was styled off of Code Institutes "Boutique Ado" project and this was used both to aid in the correct styling of features like cards, and to help in implementing some of the python logic on the website. I added my own data and manipulated the logic to fit my requirements when needed.
+
  - My mentor **Marantha Ilesanmi** for his help with the restructuring of my pagination code and search function to make the functionality better.
 
  - All other code was written by the creator of the site - **Paul King**.
 
  ## Content 
 
+ - The makeup data in the JSON files contained in the fixture was taken from **[Makeup-API](https://makeup-api.herokuapp.com/)** and this data was then edited as I needed to fit my purposes.
+
  ## Text
 
+ - The makeup information and text in the JSON files contained in the fixture was taken from **[Makeup-API](https://makeup-api.herokuapp.com/)** and this data was then edited as I needed to fit my purposes.
+
  ## Media 
+
+ - The hero image on the homepage was taken from **[Pixabay](https://pixabay.com/)**.
+
+ - The makeup pictures in the JSON files contained in the fixture was taken from **[Makeup-API](https://makeup-api.herokuapp.com/)** and this data was then edited as I needed to fit my purposes.
 
  ## Acknowledgements 
 
  - My mentor **Marantha Ilesanmi** for his help, advice and patience.
- - Code Institute and their tutors.
+ - Code Institute and their mentors and tutors.
