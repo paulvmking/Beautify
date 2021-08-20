@@ -228,9 +228,13 @@ body {
     }
     
     .header-margin-product {
-        margin-top: 200px;
+        margin-top: 400px;
     }
   }
+
+    .header-margin {
+        margin-top: 200px;
+}
   
   /* fixed top navbar only on medium and up */
   @media (min-width: 992px) {
@@ -243,11 +247,11 @@ body {
       }
 
       .header-margin-product {
-        margin-top: 200px;
+        margin-top: 300px;
     }
   
       .header-margin {
-        margin-top: 200px;
+        margin-top: 300px;
     }
   }
 
