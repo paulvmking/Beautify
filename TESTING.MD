@@ -44,6 +44,54 @@ therefore passing the test.
 
 - **[PEP8online](http://pep8online.com/)** - To Validate Python code and ensure it is PEP8 complient(Please copy and paste selected file into PEP8online to reproduce results).
 
+## Bag App
+- **contexts.py** File = **Passed**- No errors found.
+- **urls.py** File = **Passed**- No errors found.
+- **views.py** File = **Passed**- No errors found with the exception of the first line where importing some django resources this did not effect the live site at all.
+The other errors in this app were due to files that were created by django when creating the new app.
+
+## Beautify App
+- **settings.py** File = **Passed**- No errors found with the exception of the password validators lines  being too long, this did not effect the live site at all.
+- **urls.py** File = **Passed**- No errors found.
+The other errors in this app were due to files that were created by django when creating the new app.
+
+## Checkout App
+- **admin.py** File = **Passed**- No errors found.
+- **apps.py** File = **Passed**- No errors found.
+- **forms.py** File = **Passed**- No errors found.
+- **models.py** File = **Passed**- No errors found with the exception of the lines 42 and 54 being too long, this did not effect the live site at all.
+- **signals.py** File = **Passed**- No errors found.
+- **urls.py** File = **Passed**- No errors found.
+- **views.py** File = **Passed**- No errors found with the exception of lines 1, 80, 88, 99 which were all too long, this did not effect the live site at all.
+- **webhook_handler.py** File = **Passed**- No errors found with the exception of lines 38, 67, 68, 98, 135 and 141 which were all too long, this did not effect the live site at all.
+- **webhooks.py** File = **Passed**- No errors found with the exception of line 41 which was too long, this did not effect the live site at all.
+The other errors in this app were due to files that were created by django when creating the new app.
+
+## Home App
+- **apps.py** File = **Passed**- No errors found.
+- **urls.py** File = **Passed**- No errors found.
+- **views.py** File = **Passed**- No errors found.
+The other errors in this app were due to files that were created by django when creating the new app.
+
+## Products App
+- **admin.py** File = **Passed**- No errors found.
+- **apps.py** File = **Passed**- No errors found.
+- **models.py** File = **Passed**- No errors found with the exception of line 25 being too long, this did not effect the live site at all.
+- **urls.py** File = **Passed**- No errors found.
+- **views.py** File = **Passed**- No errors found with the exception of lines 41 and 44 which were all too long, this did not effect the live site at all.
+The other errors in this app were due to files that were created by django when creating the new app.
+
+## Profiles App
+- **apps.py** File = **Passed**- No errors found.
+- **forms.py** File = **Passed**- No errors found.
+- **models.py** File = **Passed**- No errors found with the exception of the lines 14, 15, 16, 17 and 20 being too long, this did not effect the live site at all.
+- **urls.py** File = **Passed**- No errors found with the exception of line 6 being too long, this did not effect the live site at all.
+- **views.py** File = **Passed**- No errors found.
+The other errors in this app were due to files that were created by django when creating the new app.
+
+## Other
+- **custom_storages.py** File = **Passed**- No errors found.
+
 
 ## CSS3 Validator 
 
