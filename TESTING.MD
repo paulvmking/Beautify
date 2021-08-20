@@ -142,6 +142,29 @@ to the largest (1200px +)
 
 ## User Stories Testing
 
+ 1. As a new user I want to know the sites purpose immediately.
+ - User is greeted by an image of a makeup product showing the site intent straight away.
+ 2. As a new user I want an intuitive search experience.
+ - User can use filters and a search bar to search for any terms in the products description or use the filters to narrow down the criteria they wish to search by.
+ 3. As a new user I expect to be able to navigate the site easily to find a product.
+ - The site has a navbar on all sizes and has clearly labelled actions for each button or product provided.
+ 4. As a new user I expect to be able to sign up to services.
+ - Users can register on the right hand side of navbar.
+ 5. As a potential customer I want an easy sign up process.
+ - Users can register on the right hand side of navbar.
+ 6. As a potential customer I want easily explained details for the products.
+ - Clicking each product brings up and individual page describing the product with more information.
+ 7. As a potential customer I want to have a good choice of filters for searching.
+ - User can use filters and a search bar to search for any terms in the products description or use the filters to narrow down the criteria they wish to search by.
+ 8. As a returning user I want information and other useful content to entice me to return.
+  - Clicking each product brings up and individual page describing the product with more information.
+ 9. As a returning user I want to be able to view my order history.
+ - Creating a profile and signing in shows the user their order history if any.
+ 10. As a user I expect to be able to login and out of my own profile.
+ - This is possible from the my account link on the top right of navbar.
+ 11. As a site admin I expect to be able to maintain the site.
+ - As the admin you can sign in and manage the site from removing or adding products to creating new emails and viewing orders made.
+
 
 ## Usability  
 
