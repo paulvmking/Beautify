@@ -69,6 +69,8 @@ It also feature **search** functionality and plenty of **filters** to allow the 
 
 ## Fonts
 
+The two main fonts on this page were 'Lato', with a default font of 'sans-serif'. These were used to keep the site easy to read and simple to navigate.
+
 ## Imagery
 
 The images used for each product were taken for the API described and came with the other JSON data. I just called this API and used the image_link properly to display the relevent image whenever required. They are all make up related to keep with the theme of the site and I think overall even though they are not all consistent in size and content they executed their intended purpose and impact. The main hero image on the home page was taken from pixabay.com. I kept the images simple and to the point and did not want too many colliding feature related to them so as to allow for maximum impact between the products and the background and encourage the user to click them.
@@ -89,7 +91,7 @@ The images used for each product were taken for the API described and came with 
 
 #### **Database Design**
 
-<img src="">
+<img src="media/Database.png">
 
 ### Features 
 
