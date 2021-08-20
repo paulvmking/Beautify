@@ -51,23 +51,6 @@
     }
     },
     {
-      "pk": 1044,
-      "model": "products.product",
-      "fields": {
-      "id": 1044,
-      "brand": "boosh",
-      "name": "Lipstick",
-      "price": "26.0",
-      "price_sign": "€",
-      "currency": "EUR",
-      "image_link": "https://cdn.shopify.com/s/files/1/1016/3243/products/LIPBALM_LID_grande.jpg?v=1496848378",
-      "description": "All of our products are free from lead and heavy metals, parabens, phthalates, artificial colourants, and synthetic fragrances.  Boosh lipstick glides on smoothly for clean & protective SPF coverage. They are filled with hydrating oils and butters to preserve and enhance your lips natural surface. Organic sweet orange oil gives a light and cheerful scent.",
-      "rating": 4.2,
-      "category": 2,
-      "product_type": "lipstick"
-    }
-    },
-    {
       "pk": 1041,  
       "model": "products.product",
       "fields": {
