@@ -97,10 +97,29 @@ The other errors in this app were due to files that were created by django when 
 
 - **[jigsawW3C](https://jigsaw.w3.org/css-validator/#validate_by_input)** - To Validate CSS.
 
+- **checkout.css** File = **Passed**- No errors found.
+- **profile.css** File = **Passed**- No errors found.
+- **base.css** File = **Passed**- No errors found.
+
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+
 ## HTML5 Validator
 
 - **[validatorW3C](https://validator.w3.org/#validate_by_input)** - To Validate HTML5.
 
+- **shopping_bag.html** File = **Passed**- No errors found except for loops syntax.
+- **checkout_success.html** File = **Passed**- No errors found except for loops syntax.
+- **checkout.html** File = **Passed**- No errors found except for loops syntax and heading for spinner.
+- **index.html** File = **Passed**- No errors found except for loops syntax.
+- **product_single.html** File = **Passed**- No errors found except for loops syntax.
+- **products.html** File = **Passed**- No errors found except for loops syntax.
+- **profile.html** File = **Passed**- No errors found except for loops syntax.
+- **base.html** **Allauth** File = **Passed**- No errors found except for loops syntax.
+- **base.html** File = **Passed**- No errors found except for loops syntax.
 
 ## Compatibility
 
