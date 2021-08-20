@@ -117,11 +117,11 @@ It also feature **search** functionality and plenty of **filters** to allow the 
 - **[Placeholder](https://placeholder.com/)** - Used to add colors to Readme.
 - **[Favicon.io](https://favicon.io/)** - Used to add Favicon to site.
 
-# [Testing]()
+# [Testing](TESTING.MD)
 
 # Deployment 
 
-- In order to deploy this project as I have the following is required [Python3](https://www.python.org/),  [Github account](https://github.com/),  [MongoDB account](https://www.mongodb.com/),  [Heroku account](https://www.heroku.com/).
+- In order to deploy this project as I have the following is required [Python3](https://www.python.org/),  [Github account](https://github.com/),  [Heroku account](https://www.heroku.com/).
 
 After you have succesfully signed up for these and installed the requirements proceed as below.
 
@@ -133,11 +133,68 @@ To make a local clone, follow these steps.
 3. Click on **“Open with GitHub Desktop”** and follow the prompts.
 
 #### Step 2 Use the local copy
-1. Install all the requirements: Go to the workspace of your local copy. 
-2. In the terminal type: **pip3 install -r requirements.txt** and hit enter, this will create
+To run the project locally. Install:
+* Git
+* Django
+
+1. Install all the requirements: Go to the workspace of your local copy.
+2. Create a `.env` file containing the following credentials:
+
+Env Vars | Value
+----------- | -------------
+AWS_ACCESS_KEY_ID | `<AWS_ACCESS_KEY_ID>`
+AWS_SECRET_ACCESS_KEY | `<AWS_SECRET_ACCESS_KEY>`
+DATABASE_URL | `<DATABASE_URL>`
+EMAIL_HOST_USER | `<EMAIL_HOST_USER>`
+EMAIL_HOST_PASS | `<EMAIL_HOST_PASS>`
+SECRET_KEY | `<SECRET_KEY>`
+STRIPE_PUBLIC_KEY | `<STRIPE_PUBLIC_KEY>`
+STRIPE_SECRET_KEY | `<STRIPE_SECRET_KEY>`
+STRIPE_WH_SECRET | `<STRIPE_WH_SECRET>`
+USE_AWS | `<TRUE>` 
+
+3. In the terminal type: **pip3 install -r requirements.txt** and hit enter, this will create
 a file which python will need to run correctly as it contains a list of required dependancies.
 
-#### Step 3 Deploying to Heroku  
+
+You can run the app by running: `python manage.py runserver` which will run the project on the 8000 server port.
+
+
+#### Step 3 Deploying to Heroku 
+
+1. Install **gunicorn** package to run the application on Heroku.
+    - `sudo pip3 install gunicorn`
+2. Install **pycopg2** to connect to PostgreSQL
+    - `sudo pip3 install psycopg2`
+3. Create a **requirements.txt** file
+    - `sudo pip3 freeze --local > requirements.txt`
+4. Create a new Heroku application
+    - Sign up to a new account unless you already have one.
+    - Create a new application by clicking on `new` then `create new app`.
+    - Set the name of your application and select your region to the closest that applies for me it was **Europe** and click on `create app` to finalize the creation of your app. 
+5. Install PostgreSQL add-on
+    - `heroku addons:create heroku-postgresql:hobby-dev`
+6. Create a **Procfile** in the root directory
+    - content: `web: gunicorn spacex.wsgi:application`
+7. Set the following config variables as environment variables:
+
+Config Vars | Value
+----------- | -------------
+AWS_ACCESS_KEY_ID | `<AWS_ACCESS_KEY_ID>`
+AWS_SECRET_ACCESS_KEY | `<AWS_SECRET_ACCESS_KEY>`
+DATABASE_URL | `<DATABASE_URL>`
+EMAIL_HOST_USER | `<EMAIL_HOST_USER>`
+EMAIL_HOST_PASS | `<EMAIL_HOST_PASS>`
+SECRET_KEY | `<SECRET_KEY>`
+STRIPE_PUBLIC_KEY | `<STRIPE_PUBLIC_KEY>`
+STRIPE_SECRET_KEY | `<STRIPE_SECRET_KEY>`
+STRIPE_WH_SECRET | `<STRIPE_WH_SECRET>`
+USE_AWS | `<TRUE>`
+
+8. Add and then commit the requirements.txt and Procfile to repository. 
+9. Go back to the deploy tab in Heroku and navigate to **Automatic deployment**.
+10. Click on **Enable Automatic Deployment** by using **Manual deployment**.
+11. Finally Click on **Deploy Branch**.
 
 To View the live app you can click on **Open app** in the right corner of your Heroku account. The app will open and deployment is successful.
 
