@@ -340,23 +340,6 @@
     }
     },
     {
-      "pk": 1023,
-      "model": "products.product",
-      "fields": {
-      "id": 1023,
-      "brand": "marienatie",
-      "name": "Lipstick",
-      "price": "18.00",
-      "price_sign": "€",
-      "currency": "EUR",
-      "image_link": "https://www.purpicks.com/wp-content/uploads/csm/Evelyn_Pic1.jpg",
-      "description": "A pure and creamy lipstick by MarieNatie formulated with organic jojoba, avocado, and coconut oil which are rich in anti-oxidants and have moisturizing benefits. Enriched with naturally derived organic mango and cocoa butters that will soothe, hydrate and regenerate dry lips.",
-      "rating": 4.0,
-      "category": 2,
-      "product_type": "lipstick"
-    }
-    },
-    {
       "pk": 1022,
       "model": "products.product",
       "fields": {
