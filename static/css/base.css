@@ -264,6 +264,10 @@ button.navbar-toggler{
         z-index: 1030;
     }
 
+    .products-cards {
+        justify-content: center;
+    }
+
     .header-margin-product {
         margin-top: 300px;
     }
