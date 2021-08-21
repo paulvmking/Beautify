@@ -35,8 +35,9 @@ span.navbar-toggler-icon {
     color: white;
 }
 
-.navbar-toggler{
+button.navbar-toggler{
     color: white;
+    border-color: white;
 }
 
 .logo-font {
