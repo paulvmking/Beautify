@@ -1,3 +1,4 @@
+/* styling for body */
 html {
     height: 100%;
 }
@@ -10,6 +11,7 @@ body {
     font-family: 'Lato', 'sans-serif';
 }
 
+/* styling for navbar */
 #topnav {
     background-color: #844a5d;
     font-family: 'Lato', 'sans-serif';
@@ -36,6 +38,7 @@ body {
     width: fit-content;
 }
 
+/* styling for buttons */
 .shop-now-button {
     background: #daa520;
     color: black;
@@ -57,7 +60,7 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; 
+    color: black !important;
     border: 1px solid black;
 }
 
@@ -71,12 +74,23 @@ body {
     color: white;
 }
 
-.text-black {
-    color: #000 !important;
+.btt-button {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #844a5d;
+    color: #e0e9f1;
 }
 
-.border-black {
-    border: 1px solid black !important;
+.btt-link {
+    cursor: pointer;
+}
+
+/* styling for background and banner */
+.text-black {
+    color: #000 !important;
 }
 
 .bg-gold {
@@ -84,15 +98,16 @@ body {
 }
 
 .overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: #e0e9f1;
-	z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #e0e9f1;
+    z-index: -1;
 }
 
+/* styling for product cards */
 .product-card {
     height: 424px;
     width: 225px;
@@ -125,29 +140,19 @@ body {
     background-color: black;
 }
 
+.border-black {
+    border: 1px solid black !important;
+}
+
 .category-display {
     text-transform: capitalize;
-}
-
-.btt-button {
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background: #844a5d;
-    color: #e0e9f1;
-}
-
-.btt-link {
-    cursor: pointer;
 }
 
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    margin-top: 1.5rem;
+    color: #6c757d;
 }
 
 .allauth-form-inner-content input {
@@ -165,8 +170,7 @@ body {
 
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
-	display: inline-block;
+    display: inline-block;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -181,23 +185,22 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0;
-
-    /* standard bootstrap btn transitions */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
+.allauth-form-inner-content input[type='submit']:hover {
+    color: #fff;
     background-color: #222;
     border-color: #222;
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+    color: #17a2b8;
+    /* text-info */
 }
 
-/* ------------------------------- bootstrap toasts */
+/* bootstrap toasts */
 
 .message-container {
     position: fixed;
@@ -219,41 +222,42 @@ body {
     margin-right: auto;
 }
 
-/* -------------------------------- Media Queries */
+/* Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
-      max-width: 100%;
+        max-width: 100%;
     }
-    
+
     .header-margin-product {
         margin-top: 400px;
     }
-  }
 
     .header-margin {
         margin-top: 200px;
+    }
 }
-  
-  /* fixed top navbar only on medium and up */
-  @media (min-width: 992px) {
-      .fixed-top-desktop-only {
-          position: fixed;
-          top: 0;
-          right: 0;
-          left: 0;
-          z-index: 1030;
-      }
 
-      .header-margin-product {
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-margin-product {
         margin-top: 300px;
     }
-  
-      .header-margin {
+
+    .header-margin {
         margin-top: 300px;
     }
-  }
+}
 
 /* to push the top down on mobile */
 @media (max-width: 991px) {
