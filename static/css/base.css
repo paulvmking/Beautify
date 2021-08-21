@@ -61,6 +61,11 @@ button.navbar-toggler{
     color: white;
 }
 
+.btn-purple {
+    background: #844a5d;
+    color: white;
+}
+
 .btn-white {
     background: white;
     color: black;
