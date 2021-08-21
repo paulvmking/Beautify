@@ -17,6 +17,9 @@ import json
 
 @require_POST
 def cache_checkout_data(request):
+    """
+    Modify the payment intent upon the user submitting the checkout form
+    """
     try:
         pid = request.POST.get("client_secret").split("_secret")[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
@@ -147,13 +150,14 @@ def checkout(request):
 
 
 def checkout_success(request, order_number):
-    # to handle successful checkouts
+    """
+    Handle successful checkouts
+    """
     save_info = request.session.get("save_info")
     order = get_object_or_404(Order, order_number=order_number)
 
     if request.user.is_authenticated:
         profile = UserProfile.objects.get(user=request.user)
-        # Attach the user's profile to the order
         order.user_profile = profile
         order.save()
 
