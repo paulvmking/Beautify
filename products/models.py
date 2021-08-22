@@ -16,9 +16,7 @@ class Product(models.Model):
     Model for products within the store
     """
     id = (models.CharField(max_length=254, null=True, blank=True),)
-    category = models.ForeignKey(
-        "Category", null=True, blank=True, on_delete=models.SET_NULL
-    )
+    category = models.ForeignKey("Category", null=True, blank=True, on_delete=models.SET_NULL)
     name = models.CharField(max_length=254)
     brand = models.CharField(max_length=254, null=True, blank=True)
     price_sign = models.CharField(max_length=254, null=True, blank=True)
