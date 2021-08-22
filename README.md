@@ -113,7 +113,8 @@ The images used for each product were taken for the API described and came with 
 ### Features Left to Implement
 - **Terms and conditions** page to allow users to read through the legal documentation associated with the site.Too much time involved reviewing legal documentation to implement straight away.
 - Option to change **languages** to some other than English.Too expensive to hire someone to check translations on current budget.
-- Review section to allow users to leave reviews on products and rate them also, as the ratings are currently only accessible to the Admin.
+- Review section to allow users to leave reviews on products and rate them also, as the ratings are currently only accessible to the Admin.Not enought time to implement.
+- Ability for superuser to edit and remove/add products without needing admin permissions. Time constraints did not allow for implementation.
 
 # Technologies Used
 
