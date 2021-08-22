@@ -125,6 +125,11 @@ The other errors in this app were due to files that were created by django when 
 
 - **main-nav.html** File = **Passed**- No errors found except for loops syntax and the fact it is an includes file.
 - **mobile-top-header.html** File = **Passed**- No errors found except for loops syntax and the fact it is an includes file.
+- **checkout_btns.html** File = **Passed**- No errors found except for the fact it is an includes file.
+- **bag_total.html** File = **Passed**- No errors found except for the fact it is an includes file.
+- **item_image.html** File = **Passed**- No errors found except for the fact it is an includes file.
+- **item_info.html** File = **Passed**- No errors found except for the fact it is an includes file.
+- **quantity_form.html** File = **Passed**- No errors found except for the fact it is an includes file.
 
 ## Compatibility
 
